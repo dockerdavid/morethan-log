@@ -19,6 +19,7 @@ export function filterPosts(
   options: FilterPostsOptions = initialOption
 ) {
   const { acceptStatus = ["Public"], acceptType = ["Post"] } = options
+  console.log(posts)
   const filteredPosts = posts
     // filter data
     .filter((post) => {
@@ -33,8 +34,7 @@ export function filterPosts(
     })
     // filter type
     .filter((post) => {
-      const postType = post.type[0]
-      return acceptType.includes(postType)
+      return acceptType.includes(post.type[0])
     })
   return filteredPosts
 }
