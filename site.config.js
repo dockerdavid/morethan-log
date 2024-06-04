@@ -1,31 +1,23 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Óscar Javier Monsalve Parra.",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
-  },
-  projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
-  ],
-  // blog setting (required)
+    role: "Network and Communications Engineer",
+    bio: "Just a Network and Communications Engineer who loves to learn new things.",
+    email: "redesycomuncaciones@nordikhat.com",
+    linkedin: "oscar-javier-monsalve-parra-ab4ab1156",
+  },  // blog setting (required)
+  
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "blog",
+    description: "welcome to my blog",
   },
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2024,
+  lang: "es-ES", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
